@@ -14,14 +14,14 @@
   }
 
   .col-1 {
-   flex: 70%;
+   flex: 30%;
    padding: 20px;
-   width: 250px;
+   
    
   }
   
   .col-2 {
-   flex: 30%;
+   flex: 50%;
    padding: 20px;
   }
 
@@ -42,5 +42,16 @@
    margin: 20px;
    background-color: green;
    color: white;
+  }
+
+  .card {
+   display: flex;
+   flex: auto;
+   justify-content: space-between;
+   flex-direction: column;
+  }
+
+  .card-body {
+   flex: auto;
   }
  
